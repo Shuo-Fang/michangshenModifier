@@ -3,6 +3,8 @@
 #include <QString>
 #include <QDebug>
 #include <QFile>
+#include <QtCore/QtCore>
+#include <QWidget>
 
 #ifndef LOADQSS
 #define LOADQSS(qssFile)                        \
@@ -46,6 +48,7 @@ namespace GlobalSpace
 {
 const QString STYLE_QSS_FILE_PATH = ":/res/res/stylesheet/stylesheet.qss";
 const QString LOGO_PATH = ":/res/res/image/image.png";
+const QString GAME_PATH = QStandardPaths::writableLocation(QStandardPaths::RuntimeLocation)+"/LocalLow/yusuiInc";
 
 const int INT_DOUBLE_TIMES = 2;
 const float FLOAT_DOUBLE_TIMES = 2.0f;

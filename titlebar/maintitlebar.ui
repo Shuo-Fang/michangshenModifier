@@ -67,7 +67,7 @@
          </font>
         </property>
         <property name="text">
-         <string>QCoolPage</string>
+         <string>存档修改器</string>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
